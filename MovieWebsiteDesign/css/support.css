@@ -1,0 +1,119 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/Noto_Sans_Thai/static/NotoSansThai-Medium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family:myFirstFont,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+body{
+  background-color: #171717;
+}
+
+.navbar{
+  background-color: #171717;
+  font-size: x-large;
+}
+.navbar-nav .nav-link{
+  color: #ededed;
+}
+.dropend .dropdown-toggle{
+  color: #da0037;
+  margin-left: 1em;
+}
+.dropdown-item:hover{
+  background-color: #da0037;
+  color: #ededed;
+}
+.dropdown .dropdown-menu{
+  display: none;
+}
+.dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+  display: block;
+  margin-top: .125em;
+  margin-left: .125em;
+}
+#logo,a.active{
+  margin: 0;
+}
+#logo{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+* a{
+  font-variant: small-caps;
+}
+@media screen and (min-width:769px) {
+  .dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle{
+    margin-left: .5em;
+  }
+  #logo{
+  margin: 2rem;
+  }
+
+  a.active{
+      margin-left: 2em;
+  }
+
+}
+
+/* -------------------------------------------------------- */
+body{
+  background-color: #141414;
+}
+.bg{
+  color: white;
+  width: 80%;
+  height: 1000px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 1px #da0037;
+}
+.bg img{
+  float: left;
+  width: 35%;
+  height: auto;
+  margin: 3rem;
+  border-radius: 10px;
+}
+.content{
+  margin: 3rem;
+  text-align: justify;
+  font-variant: small-caps;
+}
+.content h1{
+  padding-top: 2.5rem;
+}
+h1.support{
+  margin-top: 2rem;
+  margin-left: 10%;
+  color: #ededed;
+  font-variant: small-caps;
+}
+@media screen and (max-width: 765px) {
+.content p.text ,.Rate ,h1{
+  display: none;
+}
+
+.bg img{
+  margin-left: 3rem ;
+}
+
+}
+
+@media screen and (min-width: 766px) {
+.content p.text ,.Rate ,h1.data{
+  line-height: 200%;
+  height: 600px;
+  overflow: hidden;
+}
+
+
+}

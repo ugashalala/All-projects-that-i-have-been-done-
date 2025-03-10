@@ -1,0 +1,117 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/Noto_Sans_Thai/static/NotoSansThai-Medium.ttf);
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      font-family:myFirstFont,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+body{
+    background-color: #171717;
+}
+
+.navbar{
+  background-color: #171717;
+  font-size: x-large;
+}
+.navbar-nav .nav-link{
+    color: #ededed;
+  }
+  .dropend .dropdown-toggle{
+    color: #da0037;
+    margin-left: 1em;
+  }
+  .dropdown-item:hover{
+    background-color: #da0037;
+    color: #ededed;
+  }
+  .dropdown .dropdown-menu{
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: .125em;
+    margin-left: .125em;
+  }
+  #logo,a.active{
+    margin: 0;
+  }
+  #logo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  * a{
+    font-variant: small-caps;
+  }
+  @media screen and (min-width:769px) {
+    .dropend:hover > .dropdown-menu{
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle{
+      margin-left: .5em;
+    }
+    #logo{
+    margin: 2rem;
+    }
+
+    a.active{
+        margin-left: 2em;
+    }
+
+  }
+
+
+
+  /* ---------------------------------------------------------- */
+
+  body{
+    background-color: #141414;
+}
+.bg a{
+  text-decoration: none;
+  color: #ededed;
+}
+.bg{
+    color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+.bg img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 3rem;
+    border-radius: 50%;
+}
+.content{
+    margin: 3rem;
+    text-align: justify;
+}
+.content h1{
+    padding-top: 2.5rem;
+}
+.User-Review{
+  margin: 2.7rem;
+
+}
+.content p.text ,.Rate{
+
+  height: 200px;
+  overflow: hidden;
+}  
+@media screen and (max-width: 765px) {
+  .content p.text{
+    overflow: hidden;
+    height: 500px;
+  }
+  
+  
+}

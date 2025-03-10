@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="/css/support.css"> -->
+    <style>
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <img id="logo" src="./img/Logo/logo.png" alt="logo" style="width: 5.5rem;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  movies
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./theater.html">theather</a></li>
+                  <li class="nav-item dropend">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      at home
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./netflix.html">netflix</a></li>
+                      <li><a class="dropdown-item" href="./disney.html">disney+</a></li>
+                      <li><a class="dropdown-item" href="./hbo.html">hbo go</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./celeb.html">celeb</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  award
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./oscar.html">oscar</a></li>
+                  <li><a class="dropdown-item" href="./goldengloble.html">golden globle</a></li>
+                </ul>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="support.html">support</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="./landding-Login.html">
+        <img id="profile" src="./img/Logo/profile.png" alt="profile" style="width:3rem;" class="rounded-pill">
+            </a>
+        </div>
+    </nav>
+    <div class="sli
+    deshow-container">
+
+        <div class="mySlides fade">
+            <a href="./oppenheimer.html"><img src="./img/wideScreen/OppenheimerWIde.jpg" alt="moviepic slide1" style="width:100%"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <a href=""><img src="./img/wideScreen/midway.jpg" alt="moviepic slide2" style="width:100%"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <a href=""><img src="./img/wideScreen/interstellarWideScreen.jpg" alt="moviepic slide3" style="width:100%"></a>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        <div style="text-align:center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+    <div class="main menu">
+        <div class="recommend">
+            <div class="search-container">
+                <form action="./action_page.php" >
+                    <input type="text" placeholder="Search.." name="search" >
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <h1>recommend</h1>
+        </div>
+
+        <div class="main-content">
+            <a href="#"><img src="./img/Theater/BeautyAndTheBeast.jpg" alt="BeautyAndTheBeast" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/forrest-gump.jpg" alt="forrest-gump" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/Batman.jpg" alt="Batman" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/AvengerInfinityWar.jpg" alt="AvengerInfinityWar" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/HarryPhilo.jpg" alt="HarryPotter" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/Joker.jpg" alt="Joker" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/ThorLoveandThunder.jpg" alt="ThorLoveandThunder" width="300" height="400"></a>
+            <a href="./oppenheimer.html"><img src="./img/Theater/opp.jpg" alt="oppenheimer" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/barbie.jpg" alt="barbie" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/interstella.jpg" alt="interstella" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/Interception.jpg" alt="Interception" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/dunkirk.jpg" alt="dunkirk" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/tenet.jpg" alt="tenet" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/cruella.jpg" alt="cruella" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/maleficent.jpg" alt="maleficent" width="300" height="400"></a>
+            <a href=""><img src="./img/Theater/shawshank.jpg" alt="shawshank" width="300" height="400"></a>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/Noto_Sans_Thai/static/NotoSansThai-Medium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family:myFirstFont,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  body{
+    background-color: #171717;
+  }
+  
+  .navbar{
+    background-color: #171717;
+    font-size: x-large;
+}
+  .navbar-nav .nav-link{
+    color: #ededed;
+  }
+  .dropend .dropdown-toggle{
+    color: #da0037;
+    margin-left: 1em;
+  }
+  .dropdown-item:hover{
+    background-color: #da0037;
+    color: #ededed;
+  }
+  .dropdown .dropdown-menu{
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: .125em;
+    margin-left: .125em;
+  }
+  #logo,a.active{
+    margin: 0;
+  }
+  #logo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  * a{
+    font-variant: small-caps;
+  }
+  @media screen and (min-width:769px) {
+    .dropend:hover > .dropdown-menu{
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle{
+      margin-left: .5em;
+    }
+    #logo{
+    margin: 2rem;
+    }
+  
+    a.active{
+        margin-left: 2em;
+    }
+  
+  }
+
+/* --------------------review------------------- */
+
+.bg{
+    color: white;
+}
+.img-detail{
+    float: left;
+    width: auto;
+    height: 400px;
+    margin-left: 2rem;
+}
+.img-detail img{
+  border-radius: 10px;
+}
+.img-detail p{
+    font-variant: small-caps;
+}
+.img-detail p.title{
+  font-size: 24px;
+}
+.img-detail p.rate{
+  font-weight: 100;
+}
+.bg img{
+    width: auto;
+    height: 300px;
+}
+.content{
+    margin: 50px;
+    text-align: justify;
+}
+video{
+    margin-left: 8rem;
+    width: 70%;
+    height: auto;
+}
+.video-detail{
+    text-indent: 2rem   ;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.footer:hover{
+    background-color: #da0037;
+    transform: scale(2);
+}
+
+@media screen and (max-width: 765px) {
+  .content video{
+    display: none;
+  }
+  
+
+}
+@media screen and (max-width: 1141px) {
+  .content video{
+    width: 50%;
+  }
+  
+
+}
+.video-detail{
+  columns: 2;
+  column-gap: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
